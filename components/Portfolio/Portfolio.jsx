@@ -11,7 +11,7 @@ const Portfolio = () => {
                 <article className={styles.item}>
                     {/*image*/}
                     <div className={styles.imageContainer}>
-                        <Image className={styles.image} objectFit={"cover"} src={"/images/airbnb.png"} layout={"fill"} />
+                        <Image className={styles.image} alt={""} objectFit={"cover"} src={"/images/airbnb.png"} layout={"fill"} />
                     </div>
 
                     {/*project description*/}
@@ -27,7 +27,7 @@ const Portfolio = () => {
                 <article className={styles.item}>
                     {/*image*/}
                     <div className={styles.imageContainer}>
-                        <Image className={styles.image} objectFit={"cover"} src={"/images/blog.png"} layout={"fill"} />
+                        <Image alt={""} className={styles.image} objectFit={"cover"} src={"/images/blog.png"} layout={"fill"} />
                     </div>
 
                     {/*project description*/}
@@ -43,7 +43,7 @@ const Portfolio = () => {
                 <article className={styles.item}>
                     {/*image*/}
                     <div className={styles.imageContainer}>
-                        <Image className={styles.image} objectFit={"cover"} src={"/images/bike-landing-page.png"} layout={"fill"} />
+                        <Image className={styles.image} alt={""} objectFit={"cover"} src={"/images/bike-landing-page.png"} layout={"fill"} />
                     </div>
 
                     {/*project description*/}
@@ -59,7 +59,7 @@ const Portfolio = () => {
                 <article className={styles.item}>
                     {/*image*/}
                     <div className={styles.imageContainer}>
-                        <Image className={styles.image} objectFit={"cover"} src={"/images/amazon.png"} layout={"fill"} />
+                        <Image alt={""} className={styles.image} objectFit={"cover"} src={"/images/amazon.png"} layout={"fill"} />
                     </div>
 
                     {/*project description*/}

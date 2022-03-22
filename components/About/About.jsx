@@ -2,7 +2,6 @@ import React from 'react';
 import styles from "./About.module.css";
 import Image from "next/image";
 import {FaAward} from "react-icons/fa";
-import {HiOutlineUsers} from "react-icons/hi";
 import {MdWorkOutline} from "react-icons/md";
 
 const About = () => {
@@ -44,14 +43,14 @@ const About = () => {
 
                     {/*text*/}
 
-                    <p className={styles.text}>Hi, I'm Abiola, a Full-Stack Web Developer.
+                    <p className={styles.text}>Hi, I&apos;m Abiola, a Full-Stack Web Developer.
                         I use an artistic approach to solve problems Efficiently.
-                        I've been professionally connected with the web development industry and information technology for quite some years.
+                        I&apos;ve been professionally connected with the web development industry and information technology for quite some years.
                         Effectiveness in the industry today requires an acute parity between development and artistic tastes.aries to create awesome user experience
                     </p>
 
                     {/*button*/}
-                    <button className={styles.button}>Let's Talk</button>
+                    <button className={styles.button}>Let&apos;s Talk</button>
                 </div>
             </div>
 
