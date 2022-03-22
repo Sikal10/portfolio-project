@@ -1,0 +1,155 @@
+.MainContainer {
+    height: 80vh;
+    color: #fff;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.MainContainer h5, .MainContainer h2 {
+    text-align: center;
+}
+
+.container {
+    margin-top: 90px;
+    display: flex;
+}
+
+.imageBG {
+    height: 400px;
+    width: 400px;
+    background: linear-gradient(to right top, #4db5ff, transparent);
+    border-radius: 30px;
+}
+
+.imageContainer {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    transform: rotate(8deg);
+}
+
+.imageContainer:hover {
+    transform: rotate(0);
+    transition: all ease .5s;
+}
+
+.image {
+    border-radius: 30px;
+}
+
+.cardContainer {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    background: rgba(77, 181, 255, 0.2);
+    width: 200px;
+    border-radius: 16px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card p {
+    margin-top: -10px;
+}
+
+.text {
+    width: 90%;
+    font-size: 17px;
+    word-spacing: 1px;
+    margin-top: 30px;
+    color: lightgrey;
+    font-family: sans-serif;
+}
+
+.button {
+    padding: 16px 26px;
+    margin-top: 40px;
+    border: none;
+    background: #4db5ff;
+    color: #1f1138;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+.right {
+    flex: 1;
+}
+
+.left {
+    flex: 1;
+}
+
+@media screen and (max-width: 480px) {
+    .MainContainer {
+        height: fit-content;
+        margin: 0 auto;
+        width: 90%;
+        margin-bottom: 90px;
+
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right {
+        margin-top: 30px;
+    }
+
+    .imageContainer {
+        width: 250px;
+        height: 250px;
+    }
+
+    .cardContainer {
+        display: grid;
+        padding: 0 10px;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card {
+        width: 170px;
+        height: 170px;
+        gap: 15px;
+        padding: 0;
+    }
+
+    .card p {
+        margin-top: 0;
+    }
+
+    .imageBG {
+        width: 250px;
+        height: 250px;
+    }
+
+    .text {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .button {
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 22px 45px;
+        font-size: 20px;
+    }
+}

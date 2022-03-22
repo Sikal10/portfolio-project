@@ -1,0 +1,23 @@
+.socials {
+    padding: 5px;
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+}
+
+.socials::after {
+    content: "";
+    width: 4px;
+    height: 30px;
+    background: lightcyan;
+}
+
+@media screen and (max-width: 480px) {
+    .socials {
+        display: none;
+    }
+}

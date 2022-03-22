@@ -1,0 +1,63 @@
+.header {
+    padding: 100px 0 0 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    position: relative;
+}
+
+.scroll {
+    color: white;
+    position: absolute;
+    right: 4px;
+    bottom: 50px;
+    transform: rotate(90deg);
+}
+
+.name {
+    font-size: 35px;
+    color: white;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.developer:first-child {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.developer {
+    color: #a2a1a1;
+}
+
+.imageContainer {
+    margin: 0 auto;
+    margin-top: 40px;
+    background: linear-gradient(rgba(77, 181, 255, 0.1), transparent);
+    width: 350px;
+    padding: 40px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    border-radius: 300px 300px 0 0;
+}
+
+.image {
+    border-radius: 40px 40px 0 0 ;
+    background: transparent;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90% !important;
+    }
+
+    .scroll {
+        display: none;
+    }
+}

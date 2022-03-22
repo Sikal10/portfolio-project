@@ -1,0 +1,84 @@
+.MainContainer {
+    height: 100vh;
+    color: #fff;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.MainContainer h2 {
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 5px;
+    text-align: center;
+    color: #4db5ff;
+}
+
+.MainContainer h5 {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    margin-top: 60px;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.left {
+    padding: 38px 80px;
+    border-radius: 30px;
+    background: rgba(77, 181, 255, 0.2);
+    transition: all ease-out 0.5s;
+}
+
+.left:hover, .right:hover {
+    background: transparent;
+}
+
+.right {
+    border-radius: 30px;
+    padding: 38px 80px;
+    background: rgba(77, 181, 255, 0.2);
+    transition: all ease-in 0.5s;
+}
+
+.left h3, .right h3{
+    text-align: center;
+}
+
+.icon {
+    margin-top: 5px;
+}
+
+.articleContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 20px;
+    margin-top: 10px;
+}
+
+.article {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .MainContainer {
+        width: 90%;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .left {
+        padding: 20px 0;
+    }
+
+    .right {
+        padding: 20px 0;
+    }
+}
