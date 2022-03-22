@@ -32,7 +32,7 @@ const About = () => {
                             <p>4+ Years Working</p>
                         </article>
 
-                        <article className={styles.card}>https://github.com/Sikal10/portfolio-project.git
+                        <article className={styles.card}>
                             <MdWorkOutline className={styles.icon} />
 
                             <h3>Projects</h3>

@@ -4,7 +4,7 @@ import {MdOutlineForwardToInbox} from "react-icons/md";
 
 const Contact = () => {
     return (
-        <section className={styles.MainContainer}>
+        <section id={"contact"} className={styles.MainContainer}>
             <h5>Get In Touch</h5>
             <h2>Contact Me</h2>
 
